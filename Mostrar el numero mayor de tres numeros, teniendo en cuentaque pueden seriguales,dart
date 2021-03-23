@@ -1,0 +1,33 @@
+//David
+//Cano Muñiz
+//6-W
+//23/3/2021
+//Noe Reyes
+
+void main() {
+  //Mostrar el numero mayor de tres numeros, teniendo en cuentaque pueden ser iguales
+
+  int numero1=9;
+  int numero2=9;
+  int numero3=10;
+  
+  if (numero1>numero2 && numero1>numero3){
+print("El primer numero en mayor con $numero1");}
+  
+ else if (numero2>numero1 && numero2>numero3){
+print("El segundo numero es mayor con $numero2");
+  }
+  
+  else if (numero3>numero1 && numero3>numero2){
+print("El tercer numero es mayor con $numero3");
+  }
+  
+  
+ else if (numero1==numero2 && numero2==numero3 && numero3==numero1){
+print("Los 3 numeros son iguales con $numero1");
+  }
+  
+  
+  
+  
+}
